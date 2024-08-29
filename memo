@@ -1,0 +1,26 @@
+# terminator
+
+sudo apt update
+
+sudo apt install terminator
+
+
+
+# change home to english
+  
+LANG=C xdg-user-dirs-update --force
+
+cd; mv デスクトップ/* Desktop; mv ダウンロード/* Downloads; mv テンプレート/* Templates; rm -rf テンプレート; mv 公開/* Public; mv ドキュメント/* Documents; mv ミュージック/* Music; mv ピクチャ/* Pictures; mv ビデオ/* Videos
+
+rm -rf デスクトップ ダウンロード テンプレート 公開 ドキュメント ミュージック ピクチャ ビデオ
+
+古い名前のままにする
+を選択する
+
+
+
+
+# add mozc keybord property  
+
+sudo apt install -y mozc-utils-gui
+
