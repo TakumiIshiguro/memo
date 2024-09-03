@@ -1,4 +1,4 @@
-# github
+# github initial setting(ssh)
 
 git config --global user.name ""
 
@@ -8,3 +8,14 @@ ssh-keygen
 
 cat  ~/.ssh/id_rsa.pub 
 
+
+
+# chancel git add 
+
+git reset HEAD
+
+
+
+# chancel git commit
+
+git reset --soft HEAD^
