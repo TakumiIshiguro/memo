@@ -1,0 +1,17 @@
+
+xev
+
+＃これのコマンドでkeycodeを確認できる
+
+
+
+vi ~/.Xmodmap
+
+keycode 108 = Mode_switch
+keycode 43 = h H Left Left
+keycode 44 = j J Down Down
+keycode 45 = k K Up Up
+keycode 46 = l L Right Right
+
+xmodmap ~/.Xmodmap
+
