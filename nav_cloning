@@ -1,0 +1,4 @@
+# tensorboard
+
+tensorboard --logdir ~/catkin_ws/src/nav_cloning/runs/
+
