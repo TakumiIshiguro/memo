@@ -38,3 +38,10 @@ git reset HEAD
 # chancel git commit
 
 git reset --soft HEAD^
+
+
+
+# back to the commit
+
+git reset --hard ハッシュ値
+

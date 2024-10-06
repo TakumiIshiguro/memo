@@ -1,0 +1,9 @@
+# check params
+
+ros2 param dump /my_node
+
+
+
+# check topic relation
+
+ros2 topic info --verbose /topic 
