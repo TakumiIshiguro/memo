@@ -1,17 +1,37 @@
-
-xev
-
-＃これのコマンドでkeycodeを確認できる
-
-
-
-vi ~/.Xmodmap
-
-keycode 108 = Mode_switch
-keycode 43 = h H Left Left
-keycode 44 = j J Down Down
-keycode 45 = k K Up Up
-keycode 46 = l L Right Right
-
-xmodmap ~/.Xmodmap
-
+[
+    {
+        // カーソルを1行上に移動
+        "key": "ctrl+k",
+        "command": "cursorUp"
+    },
+    {
+        // カーソルを1行下に移動
+        "key": "ctrl+j",
+        "command": "cursorDown"
+    },
+    {
+        // カーソルを1文字右に移動
+        "key": "ctrl+l",
+        "command": "cursorRight"
+    },
+    {
+        // カーソルを1文字左に移動
+        "key": "ctrl+h",
+        "command": "cursorLeft"
+    },
+    {
+        // カーソルを行先頭に移動
+        "key": "ctrl+0",
+        "command": "cursorHome"
+    },
+    {
+        // カーソルを単語先頭に移動
+        "key": "ctrl+b",
+        "command": "cursorWordStartLeft"
+    }
+    {
+        // カーソルを単語末に移動
+        "key": "ctrl+e",
+        "command": "cursorWordEndRight"
+    }
+]
