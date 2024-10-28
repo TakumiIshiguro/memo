@@ -49,4 +49,11 @@ sudo apt install ubuntu-restricted-extras
 
 # scp
 
-scp -r orne-box@192.168.0.2:~/bags/240928_tsukuba/rosbag2_kakuninn ~/. 
+scp -r orne-box@192.168.0.2:~/bags/240928_tsukuba/rosbag2_kakuninn ~/.
+
+
+
+# clock
+
+timedatectl set-local-rtc true
+ 
