@@ -48,6 +48,9 @@ watch -n 0.5 nvidia-smi
 ```
 
 ## 4. PyTorch + CUDA確認
+``` 
+pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+```
 
 ```python
 python3
